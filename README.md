@@ -4,7 +4,7 @@ pip install newspaper
 pip install gTTS
 
 Need to import:
-    os
+    import os
     from newspapper import Article
     from gtts import gTTS
     import nltk
