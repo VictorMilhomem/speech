@@ -8,7 +8,7 @@ import pyttsx3
 
 def speak(text):
 
-    engine = pyttsx3.init(driverName="sox")
+    engine = pyttsx3.init()
     engine.say(text)
     engine.runAndWait()
 
